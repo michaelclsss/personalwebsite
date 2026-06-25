@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Michael Chua — CS student at UC Irvine. AI/ML, full-stack development, and software engineering." />
+  <title>Michael Chua — Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/nav.css" />
+  <link rel="stylesheet" href="assets/css/components.css" />
+  <link rel="stylesheet" href="assets/css/sections.css" />
+
+  <!-- Reveal animation (injected via main.css + main.js) -->
+  <style>
+    .reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.55s ease, transform 0.55s ease; }
+    .reveal.visible { opacity: 1; transform: none; }
+    .nav-links a.active { color: var(--text); }
+  </style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════
+     NAVIGATION
+══════════════════════════════════════ -->
+<nav>
+  <a href="#hero" class="nav-logo">Michael Chua</a>
+  <button class="nav-toggle" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ══════════════════════════════════════
+     HERO
+══════════════════════════════════════ -->
+<div id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow fade-up">CS @ UC Irvine · Class of 2027</p>
+    <h1 class="fade-up delay-1">
+      Hello World!<br />This is Michael<br />
+    </h1>
+    <p class="hero-sub fade-up delay-2">
+      | AI Workflow Automation | Data Analytics | Full-Stack Development |
+    </p>
+    <div class="hero-cta fade-up delay-3">
+      <a href="#projects" class="btn btn-primary">View My Work ↓</a>
+      <a href="content/Michael_resume_2026.pdf" class="btn btn-ghost" target="_blank">Download Resume</a>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- ══════════════════════════════════════
+     ABOUT
+══════════════════════════════════════ -->
+<section id="about">
+  <p class="section-label">About Me</p>
+  <h2 class="section-title">Who I am</h2>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <!-- <img src="images/profile/professionalselfie.JPG" alt="Michael Chua" class="profile-photo" /> -->
+      <p>
+        I'm a <strong>Computer Science student at UC Irvine (Class of 2027)</strong> 
+        who sits at the intersection of technology and the real world. I don't just 
+        write code — I build systems that make businesses run smarter.
+      </p>
+      <p>
+        With my strong software foundation, I specialize in turning repetitive daily tasks into automated AI workflows
+        using tools like N8N, Dify, and LLM pipelines. Whether it's automating data retrieval, 
+        building department-specific chatbots, or connecting APIs — I find the friction and 
+        eliminate it.
+      </p>
+    </div>
+
+    <div class="skills-section reveal">
+
+      <div class="skill-group">
+        <div class="skill-group-title">Programming Skills</div>
+        <div class="skill-pills">
+
+          <span class="skill-pill">
+            <div class="skill-pill-box" style="background: #000000;">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+            </div>
+            <span>Python</span>
+          </span>
+
+          <span class="skill-pill">
+            <div class="skill-pill-box" style="background: #000000;">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+            </div>
+            <span>C++</span>
+          </span>
+
+          <span class="skill-pill">
+            <div class="skill-pill-box" style="background: #ffc800;">
+              <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/javascript/default.svg" />
+            </div>
+            <span>JavaScript</span>
+          </span>
+
+          <span class="skill-pill">
+            <div class="skill-pill-box" style="background: #00b7ff;">
+              <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/azure-sql-database/default.svg" />
+            </div>
+            <span>SQL</span>
+          </span>
+
+          <span class="skill-pill">
+            <div class="skill-pill-box" style="background: #ff7b00;">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+            </div>
+            <span>HTML</span>
+          </span>
+
+          <span class="skill-pill">
+            <div class="skill-pill-box" style="background: #00a6ff;">
+              <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/css3/default.svg" />
+            </div>
+            <span>CSS</span>
+          </span>
+
+          <span class="skill-pill">
+            <div class="skill-pill-box" style="background: #0051ff;">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" />
+            </div>
+            <span>MATLAB</span>
+          </span>
+          
+          <span class="skill-pill">
+            <div class="skill-pill-box" style="background: #ff8c00;">
+              <img src="https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-logo.png" />
+            </div>
+            <span>N8N</span>
+          </span>
+
+          <span class="skill-pill">
+            <div class="skill-pill-box" style="background: #ffffff;">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
+            </div>
+            <span>AWS</span>
+          </span>
+
+          <span class="skill-pill">
+            <div class="skill-pill-box" style="background: #00aeff;">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" />
+            </div>
+            <span>Pandas</span>
+          </span>
+
+          <span class="skill-pill">
+            <div class="skill-pill-box" style="background: #000000;">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" />
+            </div>
+            <span>NumPy</span>
+          </span>
+
+          <span class="skill-pill">
+            <div class="skill-pill-box" style="background: #ff6600;">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" />
+            </div>
+            <span>Scikit-learn</span>
+          </span>
+
+          <span class="skill-pill">
+            <div class="skill-pill-box" style="background: #e6e6e6;">
+              <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/pytorch/default.svg" />
+            </div>
+            <span>PyTorch</span>
+          </span>
+
+          <span class="skill-pill">
+            <div class="skill-pill-box" style="background: #655d5d;">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+            </div>
+            <span>Git</span>
+          </span>
+
+          <span class="skill-pill">
+            <div class="skill-pill-box" style="background: #ffffff;">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" />
+            </div>
+            <span>LaTeX</span>
+          </span>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ══════════════════════════════════════
+     EXPERIENCE
+══════════════════════════════════════ -->
+<section id="experience">
+  <p class="section-label">Experience</p>
+  <h2 class="section-title">Where I've worked</h2>
+  <div class="timeline">
+
+    <div class="timeline-item reveal">
+      <div class="timeline-date">
+        Jan 2026 – Present
+        <span>Irvine, USA</span>
+      </div>
+      <div class="timeline-body">
+        <h3>AI Training Contributor</h3>
+        <div class="timeline-company">Handshake AI</div>
+        <ul>
+          <li>Trained and evaluated AI model responses against structured prompting guidelines, providing feedback to improve output quality and instruction-following accuracy.</li>
+          <li>Reviewed and annotated AI-generated content across technical and professional domains, ensuring alignment with response standards.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item reveal">
+      <div class="timeline-date">
+        Jun 2025 – Sep 2025
+        <span>Shanghai, CN</span>
+      </div>
+      <div class="timeline-body">
+        <h3>Application Developer Intern</h3>
+        <div class="timeline-company">Pramerica Fosun</div>
+        <ul>
+          <li>Built workflow-driven, database-connected LLM chatbots for each department, enabling real-time data queries and visualizations — cutting information retrieval time by 50%.</li>
+          <li>Partnered with Finance, Risk, and HR teams to develop MCP-based LLM features for on-demand visual analytics, enhancing decision-making speed across the organization.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item reveal">
+      <div class="timeline-date">
+        Nov 2024 – Jan 2026
+        <span>Irvine, USA</span>
+      </div>
+      <div class="timeline-body">
+        <h3>Code Coach</h3>
+        <div class="timeline-company">The Coder School — #2 of 50+ stores nationwide</div>
+        <ul>
+          <li>Taught Python and C++ to students at varying skill levels, designing engaging, personalized coding lessons.</li>
+          <li>Guided students in building real-world applications like interactive games and websites, fostering technical confidence.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item reveal">
+      <div class="timeline-date">
+        Sep 2023 – Present
+        <span>Irvine, USA</span>
+      </div>
+      <div class="timeline-body">
+        <h3>Member — East Asian Entrepreneurship Fraternity</h3>
+        <div class="timeline-company">Eta Omega Chi at UCI</div>
+        <ul>
+          <li>Organized career panels with industry leaders from SpaceX, Google, and PIMCO, enhancing cross-industry insight for 70+ members.</li>
+          <li>Secured past and new sponsorships through outreach and managed multi-department collaboration for large-scale events.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════════════════════════════
+     PROJECTS
+     Cards are rendered by assets/js/projects.js
+     Add new projects there — no HTML edits needed
+══════════════════════════════════════ -->
+<section id="projects">
+  <p class="section-label">Projects</p>
+  <h2 class="section-title">Things I've built</h2>
+  <div class="projects-grid" id="projects-grid">
+    <!-- Injected by assets/js/projects.js -->
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════════════════════════════
+     EDUCATION
+══════════════════════════════════════ -->
+<section id="education">
+  <p class="section-label">Education</p>
+  <h2 class="section-title">Where I studied</h2>
+  <div class="edu-card reveal">
+    <div>
+      <h3>University of California, Irvine</h3>
+      <div class="degree">B.S. in Computer Science</div>
+      <div class="courses">
+        <span class="course-tag">Data Structures &amp; Algorithms</span>
+        <span class="course-tag">AI / ML</span>
+        <span class="course-tag">Data Management</span>
+        <span class="course-tag">Linear Algebra</span>
+        <span class="course-tag">Discrete Math</span>
+        <span class="course-tag">Statistics</span>
+        <span class="course-tag">Digital Systems</span>
+        <span class="course-tag">Multivariable Calculus</span>
+        <span class="course-tag">Electricity &amp; Magnetism</span>
+      </div>
+    </div>
+    <div class="edu-year">
+      2023 – 2027<br />
+      <span>Expected</span>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════════════════════════════
+     CONTACT
+══════════════════════════════════════ -->
+<section id="contact">
+  <p class="section-label">Contact</p>
+  <h2 class="section-title">Let's work together</h2>
+  <p class="contact-sub">
+    I'm open to internships, research opportunities, and interesting projects.
+    Don't hesitate to reach out.
+  </p>
+  <div class="contact-links">
+    <a href="mailto:michaelchua08@outlook.com" class="btn btn-primary">✉ Email Me</a>
+    <a href="https://linkedin.com/in/michael-chua-168373236" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+    <a href="https://github.com/michaelclsss" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     FOOTER
+══════════════════════════════════════ -->
+<footer>
+  <span>Built by Michael Chua · <span id="year"></span></span>
+</footer>
+
+<!-- Scripts -->
+<script src="assets/js/projects.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
