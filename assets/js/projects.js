@@ -20,8 +20,7 @@ const PROJECTS = [
     imagePlaceholder: "🏥",
     tags: ["Python", "scikit-learn", "pandas", "SMOTE", "seaborn", "joblib"],
     links: [
-      { label: "GitHub", url: "#" },
-      { label: "Live Demo", url: "#" }
+      // for github links ETC
     ]
   },
   {
@@ -35,8 +34,19 @@ const PROJECTS = [
     imagePlaceholder: "🗺️",
     tags: ["Python", "JavaScript", "OR-Tools", "folium", "osmnx", "Melissa API"],
     links: [
-      { label: "GitHub", url: "#" },
-      { label: "Live Demo", url: "#" }
+    ]
+  },
+  {
+    id: "stock-pp",
+    title: "Stock Price Predictor",
+    description:
+      "Developed a stock price prediction app using machine learning" +
+      "(HistGradientBoosting), technical indicators, and a Tkinter GUI " +
+      "to visualize actual vs. predicted prices with forecast and performance metrics (RMSE, MAPE) by numpy.",
+    image: "images/projects/stock_pic.png",           // replace with your screenshot
+    imagePlaceholder: "🗺️",
+    tags: ["Python", "Yfinance", "Pandas", "Numpy", "SKlearn", "tkinter"],
+    links: [
     ]
   },
   // ── Add your next project below ──────────────────────────────
