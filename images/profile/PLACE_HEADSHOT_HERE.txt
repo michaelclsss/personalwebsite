@@ -1,4 +1,0 @@
-Drop your headshot here.
-
-Recommended: michael.jpg — square crop, at least 400×400 px.
-Reference it in index.html wherever you add a profile photo.

@@ -178,3 +178,15 @@ footer {
   .edu-year { text-align: left; }
   .projects-grid { grid-template-columns: 1fr; }
 }
+
+/* ── Cursor blink ── */
+.cursor {
+  display: inline-block;
+  font-weight: 300;
+  animation: blink 0.7s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
