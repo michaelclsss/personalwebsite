@@ -1,0 +1,9 @@
+Drop your project screenshots here.
+
+Recommended size: 1280 × 720 px (16:9)
+Accepted formats: .png or .jpg
+
+File names should match what you set in assets/js/projects.js:
+  - diabetic-readmission.png
+  - melissa-nav.png
+  - (your next project).png
