@@ -37,6 +37,18 @@ const PROJECTS = [
     ]
   },
   {
+    id: "f1-analytics",
+    title: "F1 Telemetry Analytics",
+    description:
+      "Developed a native desktop GUI for comparing two Formula 1 drivers" +
+      "It loads session telemetry, aligns laps by distance, and displays" +
+      "overlapping and side-by-side Matplotlib charts inside a PySide6 application.",
+    image: "images/projects/F1.jpg",           // replace with your screenshot
+    tags: ["Python", "FastF1", "Pandas", "Matplotlib", "Numpy", "Arcade", "PySide6", "Pyglet"],
+    links: [
+    ]
+  },
+  {
     id: "stock-pp",
     title: "Stock Price Predictor",
     description:
@@ -49,16 +61,16 @@ const PROJECTS = [
     links: [
     ]
   },
-  // ── Add your next project below ──────────────────────────────
-  // {
-  //   id: "my-new-project",
-  //   title: "My New Project",
-  //   description: "What it does and why it's cool.",
-  //   image: "images/projects/my-new-project.png",
-  //   imagePlaceholder: "🤖",
-  //   tags: ["React", "Node.js"],
-  //   links: [{ label: "GitHub", url: "https://github.com/..." }]
-  // },
+  {
+    id: "webcrawler-pp",
+    title: "ICS Web Crawler",
+    description:
+      "Developed a web crawler using a spacetime cache server to receive requests for scraping and analyzing ICS data from specific ICS sources.",
+    image: "images/projects/web_crawler.png",           // replace with your screenshot
+    tags: ["Python", "Cbor", "Requests", "tkinter"],
+    links: [
+    ]
+  },
 ];
 
 /* ── Render projects into #projects-grid ── */
