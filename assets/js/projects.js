@@ -118,10 +118,10 @@ function renderProjects() {
   // Add-project placeholder at the end
   const addCard = document.createElement('div');
   addCard.className = 'project-card add-project';
-  addCard.innerHTML = `
-    <div class="add-icon">＋</div>
-    <div class="add-label">Drop your screenshot in<br><code>images/projects/</code><br>and add an entry in<br><code>assets/js/projects.js</code></div>`;
-  grid.appendChild(addCard);
+  // addCard.innerHTML = `
+  //   <div class="add-icon">＋</div>
+  //   <div class="add-label">Drop your screenshot in<br><code>images/projects/</code><br>and add an entry in<br><code>assets/js/projects.js</code></div>`;
+  // grid.appendChild(addCard);
 }
 
 document.addEventListener('DOMContentLoaded', renderProjects);
