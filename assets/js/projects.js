@@ -40,8 +40,8 @@ const PROJECTS = [
     id: "f1-analytics",
     title: "F1 Telemetry Analytics",
     description:
-      "Developed a native desktop GUI for comparing two Formula 1 drivers" +
-      "It loads session telemetry, aligns laps by distance, and displays" +
+      "Developed a native desktop GUI for comparing two Formula 1 drivers. " +
+      "It loads session telemetry, aligns laps by distance, and displays " +
       "overlapping and side-by-side Matplotlib charts inside a PySide6 application.",
     image: "images/projects/F1.jpg",           // replace with your screenshot
     tags: ["Python", "FastF1", "Pandas", "Matplotlib", "Numpy", "Arcade", "PySide6", "Pyglet"],
